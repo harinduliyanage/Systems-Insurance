@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Service", "2 Service", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Insurance.Common.Models", "OpenQbit.Insurance.Common.Models\OpenQbit.Insurance.Common.Models.csproj", "{DC9F0658-9119-4914-B244-0F4128ACE8EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQubit.Insurance.Service.WebApi", "OpenQubit.Insurance.Service.WebApi\OpenQubit.Insurance.Service.WebApi.csproj", "{B59A9CCF-C014-4408-8238-F2206491FEA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +23,16 @@ Global
 		{DC9F0658-9119-4914-B244-0F4128ACE8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC9F0658-9119-4914-B244-0F4128ACE8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC9F0658-9119-4914-B244-0F4128ACE8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59A9CCF-C014-4408-8238-F2206491FEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59A9CCF-C014-4408-8238-F2206491FEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59A9CCF-C014-4408-8238-F2206491FEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59A9CCF-C014-4408-8238-F2206491FEA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DC9F0658-9119-4914-B244-0F4128ACE8EE} = {E19D6B8E-CB0B-4F41-9529-2A42F78A55BD}
+		{B59A9CCF-C014-4408-8238-F2206491FEA7} = {E4FD3543-51FC-4080-8943-E06185D5B1CD}
 	EndGlobalSection
 EndGlobal
